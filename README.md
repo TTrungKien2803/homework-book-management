@@ -5,7 +5,7 @@
 GET: http://localhost:8080/books
 ```
 
-<img alt="Alt text" height="200" src="/img/Screenshot from 2021-11-15 09-01-13.png?raw=true" title="get list book" width="10"/>
+<img alt="Alt text" height="200" src="/img/Screenshot from 2021-11-15 09-01-13.png?raw=true" title="get list book" width="100"/>
 
 #Api search by title (tìm kiếm gần đúng)
 ```
