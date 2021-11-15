@@ -2,17 +2,17 @@
 
 #Api get list book (sắp xếp theo title)
 GET: http://localhost:8080/books
-![Alt text](![](img/Screenshot from 2021-11-15 09-01-13.png)?raw=true)
+![Alt text](/img/Screenshot from 2021-11-15 09-01-13.png?raw=true)
 
 #Api search by title (tìm kiếm gần đúng)
 GET: http://localhost:8080/books?search=string
-![Alt text](![](img/Screenshot from 2021-11-15 09-07-11.png)?raw=true)
+![Alt text](/img/Screenshot from 2021-11-15 09-07-11.png?raw=true)
 #Api search by amount
 GET: http://localhost:8080/books?amount=0
-![Alt text](![](img/Screenshot from 2021-11-15 09-15-53.png)?raw=true)
+![Alt text](/img/Screenshot from 2021-11-15 09-15-53.png?raw=true)
 #Api buy book
 POST: http://localhost:8080/books
-![Alt text](![](img/Screenshot from 2021-11-15 09-23-31.png)?raw=true)
+![Alt text](/img/Screenshot from 2021-11-15 09-23-31.png?raw=true)
 ```jsons
 RequestBody: {String bookId, Integer amount}
 ```
