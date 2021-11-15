@@ -4,25 +4,26 @@
 ```
 GET: http://localhost:8080/books
 ```
-![](/img/Screenshot from 2021-11-15 09-01-13.png)
+
+<img alt="Alt text" height="200" src="/img/Screenshot from 2021-11-15 09-01-13.png?raw=true" title="get list book" width="10"/>
 
 #Api search by title (tìm kiếm gần đúng)
 ```
 GET: http://localhost:8080/books?search=string
 ```
-![](/img/Screenshot from 2021-11-15 09-01-11.png)
+<img alt="Alt text" height="200" src="/img/Screenshot from 2021-11-15 09-07-11.png?raw=true" width="100"/>
 
 #Api search by amount
 ```
 GET: http://localhost:8080/books?amount=0
 ```
-![](/img/Screenshot from 2021-11-15 09-15-53.png)
+<img alt="Alt text" height="200" src="/img/Screenshot from 2021-11-15 09-15-53.png?raw=true" width="100"/>
 
 #Api buy book
 ```
 POST: http://localhost:8080/books
 ```
-![](/img/Screenshot from 2021-11-15 09-23-31.png)
+<img alt="Alt text" height="200" src="/img/Screenshot from 2021-11-15 09-23-31.png?raw=true" width="100"/>
 
 ```jsons
 RequestBody: {String bookId, Integer amount}
